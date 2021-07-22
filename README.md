@@ -3,8 +3,9 @@
 Web Fundamentals class
 
 Two websites created for class
+Websites hosted on Glitch.com during class
 
-1) Water rafting website
+1) Water rafting website: https://wdd130-jay.glitch.me/
 
 Water rafting website intended to be an introduction to HTML and CSS.
 Includes planning a website using a Site Plan and selecting images from class stock.
@@ -12,7 +13,7 @@ All content, including images, copy, some CSS, and HTML provided by class.
 Colors, and font selected by students, using online color theme websites and Google Font.
 Learned use of Site Plan and wireframing, using online wireframe tools.
 
-2) Personal website
+2) Personal website: https://wasabi-blue.glitch.me
 
 Personal website is a website design created by students. Students selected topic, theme,
 content, and royalty-free, license-free images.
