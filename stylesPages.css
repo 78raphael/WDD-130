@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Maitree:wght@500&display=swap');
+
+:root {
+  --primary-color: #AAABB8;    /* Cadet Blue Crayola */
+  --secondary-color: #464866;  /* Independence */
+  --accent1-color: #25274D;    /* Space Cadet */
+  --accent2-color: #2E9CCA;    /* Blue Green */
+  --white: #FFF;
+  --black: #000;
+
+  --heading-font: 'Cinzel Decorative', Helvetica, cursive;
+  --paragraph-font: 'Alike Angular', Lucida, serif;
+
+  --bright--adjust: 0.7;
+  --bright: 1.0;
+}
+
+.page-grid  {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.p-margin {
+  margin: 0 0 1em 0;
+}
+
+.content-boxes  {
+  min-height: 15em;
+  color: var(--black);
+  background-color: var(--primary-color);
+}
+
+.left {
+  margin: 2em 1em 2em 2rem;
+}
+
+.right  {
+  margin: 2em 2em 2em 1rem;
+}
+
+.ib  {
+  display: inline-block;
+  margin: 0 0 1em 0;
+}
+
+.pad {
+  padding: 10px 30px;
+}
+
+.text-center  {
+  text-align: center;
+}
+
+.image-div img {
+  margin: 2em 0;
+  width: 100%;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ########## HEAD ########## -->
+<head>
+  <title>Wasabi Blue</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      margin: 0;
+    }
+    .card {
+      width: 320px;
+      box-shadow: 1px 1px 4px 1px #888;
+      border-radius: 3px;
+      background-color: white;
+      color: #888;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1em;
+      margin: 10em;
+      overflow: hidden;
+    }
+    img {
+      max-width: 100%;
+    }
+    p {
+      line-height: 1.5em;
+      padding: 15px;
+    }
+    footer  {
+      display: grid;
+      grid-template-columns: repeat(2, 16%) 1fr;
+      justify-content: space-between;
+      padding: 15px;
+    }
+    button  {
+      justify-self: start;
+      padding: 7px;
+    }
+    span  {
+      justify-self: end;
+      align-self: center;
+    }
+  </style>
+</head>
+  <body>
+    <article class="card">
+      <img src="https://picsum.photos/320/240" alt="Random image">
+      <p>
+        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      </p>
+      <footer>
+        <button class="viewButton">
+          View
+        </button>
+        <button class="editButton">
+          Edit
+        </button>
+        <span>9 mins</span>
+      </footer>
+    </article>
+  </body>
+</html>
